@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("I am here");
-
+		
         double operand1 = Double.parseDouble(request.getParameter("operand1"));
         double operand2 = Double.parseDouble(request.getParameter("operand2"));
         String operation = request.getParameter("operation");
